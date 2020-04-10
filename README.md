@@ -8,9 +8,7 @@
 npm install
 
 ## Running the app
-
-# development
-$ npm start
+npm start
 
 ```
 
@@ -34,24 +32,10 @@ POST user/login
   "password": "string"
 }
 ```
-### List all notes
-``` bash
-GET notes
-```
 ### Notes
 ```bash
-place the token after login in the header as 'secret_token'
+For notes route place the token in the header as 'secret_token'
 ```
-### Get single note
-``` bash
-GET notes/{id}
-```
-
-### Delete note
-``` bash
-DELETE notes/{id}
-```
-
 ### Add notes
 ``` bash
 POST notes
@@ -59,9 +43,25 @@ POST notes
   "title": "string",
   "content": "string"
 }
+### List all notes
+``` bash
+GET notes
 ```
-
-
+### Get single note
+``` bash
+GET notes/{id}
+```
+### Delete note
+``` bash
+DELETE notes/{id}
+```
+### Update notes
+``` bash
+PUT notes/{id}
+{
+  "title": "string",
+  "content": "string"
+}
 ```
 
 ## App Info
