@@ -2,7 +2,6 @@
 > RESTful API using Nodejs, Express and MongoDB along with Passport-jwt authentication
 
 ## Quick Start
-
 ``` bash
 # Install 
 npm install
@@ -33,7 +32,7 @@ POST user/login
 ```
 ### Notes
 ```bash
-For notes route place the token in the header as 'secret_token'
+***For notes route get a token from login, place the token to the header as 'secret_token'
 ```
 ### Add notes
 ``` bash
