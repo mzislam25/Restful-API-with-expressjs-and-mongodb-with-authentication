@@ -9,7 +9,6 @@ npm install
 
 ## Running the app
 npm start
-
 ```
 
 ## Endpoints
@@ -43,6 +42,7 @@ POST notes
   "title": "string",
   "content": "string"
 }
+```
 ### List all notes
 ``` bash
 GET notes
@@ -68,14 +68,11 @@ PUT notes/{id}
 Simple CRUD Application with user authentication
 
 ### Author
-
 Zahir
 [Krittimmanush](http://www.krittimmanush.com)
 
 ### Version
-
 1.0.0
 
 ### License
-
 This project is licensed under the MIT License
